@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: #f8f4ee !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jump{
+  width: 100px;
+  height: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link{
+  font-size: 12px;
+  color: #000 !important;
+  letter-spacing: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.muchbg{
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./components/images/muchbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 120px;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.muchbg__head{
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.muchbg__head .title{
+  font-size: 60px;
+  color: #fff;
+}
+
+.muchbg__content .para{
+  font-size: 15px;
+  color: #fff;
+}
+
+.button{
+margin-top: 40px;
+}
+
+.link{
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 30px;
+
+  border: 2px solid #f4ccb4;
+}
+
+.link:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.cost{
+  background-color: #E9FFC2;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.cost__content{
+  margin-bottom: 20px;
+}
+.cost__image{
+ margin-bottom: 20px;
+}
+
+.cost__para{
+  font-size: 15px;
+  color: #000;
+}
+
+.cost__button{
+margin-top: 30px;
+}
+
+.cost__link{
+  font-size: 11px;
+  color: #000;
+  text-decoration: none;
+  padding: 15px 30px;
+  border: 2px solid #f4ccb4;
+}
+
+.cost__link:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.cost__image img{
+  width: 100%;
+  height: 280px;
+}
+
+
+.long{
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.long__image{
+
+}
+
+.long__image img{
+  width: 100%;
+  height: 300px;
+}
+
+
+footer{
+  margin-top: 70px;
+}
+footer{
+  position: relative;
+  bottom: 0;
+  background-color: #efba98;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.footer__list{
+  list-style: none;
+}
+
+.footer__item{
+  margin-top: 10px;
+}
+
+.footer__link{
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer__link:hover{
+  text-decoration: none;
+  color: #000;
 }
